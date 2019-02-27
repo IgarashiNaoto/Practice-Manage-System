@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	display: block;
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	border-bottom: 20px solid;
+}
+.rogin_box{
+	/*display: inline-block;*/
+	border: 10px solid;
+	margin: 50px auto;
+	text-align: center;
+	height: 300px;
+	width: 400px;
+}
+
+.rogtext{
+	line-height: 300px;
+	text-align: center;
+}
+.registrate_box{
+	display:block;
+	border: 10px solid;
+	margin: auto;
+	height: 300px;
+	width: 400px;
+}
+
+.regitext{
+	line-height: 300px;
+	text-align: center;
+}
