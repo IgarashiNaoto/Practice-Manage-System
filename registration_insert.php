@@ -14,9 +14,9 @@ header('X-FRAME-OPTIONS: SAMEORIGIN');
  
 //DB接続
 try {
-$dsn = 'mysql:dbname=naotobass_db;host=mysql1.php.xdomain.ne.jp;charset=utf8';
-$user = 'naotobass_db';
-$password ='kiyomori11';
+$dsn=データベース;
+$user=ユーザー;
+$password=パスワード;
 $pdo = new PDO($dsn,$user,$password);
 }catch (PDOException $e) {
 exit('データベースに接続できませんでした。' . $e->getMessage());
