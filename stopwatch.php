@@ -22,15 +22,6 @@ $sql -> bindParam(':userid',$userid,PDO::PARAM_STR);
 	$date = date('Y.m.d');
 	$time =	 htmlspecialchars($_POST['time']);
 $sql -> execute();
-//内容
-$sql ="SELECT*FROM stopwatch where userid ='$userid' order by id";
-$result = $pdo ->query($sql);
-foreach($result as $rows){
-	echo $rows['date'];
-	echo ",";
-	echo $rows['time']; 
-	echo '<br>';
-}
 }
 //削除
 /*$sql ="delete from";
